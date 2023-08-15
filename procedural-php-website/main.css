@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* || RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    margin-top: 20px;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+}
+
+/* || HEADER */
+
+.navbar {
+    background-color: #283645;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    padding : 20px;
+    color: white;
+    display: block;
+}
+
+.navbar li:hover {
+    background-color: #404b58;
+}
+
+/* || EXO 1 */
+
+.formulaire {
+    margin : 20px auto;
+    text-align: center;
+}
+
+.bloc {
+    margin : 20px auto;
+    text-align: center;
+}
+.special {
+    margin : 20px 45vw;
+    text-align: center;
+}
